@@ -22,7 +22,7 @@ container_t *container_find(const char *name) {
 }
 
 int container_create(const char *name, const char *root_path) {
-    if (container_count >= MAX_CONTAINERS) {l
+    if (container_count >= MAX_CONTAINERS) {
         return -1;
     }
     
